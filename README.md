@@ -8,7 +8,7 @@ Script which send messages from web-site on Telegram.
 ---
 ### You can change script config (scriptConfig.js):
 ```
-const botConfig = {
+const scriptConfig = {
     env: 'dev', // If you want to get fetch results, or warnings: dev, else: prod
     fieldTag: 'ex', // Tag for fields which will in message
     token: '5427993384:AAFpfHkrxcNGkCyln6AOQwpk0OSojWt4EhU', // Bot Token who will send messages
