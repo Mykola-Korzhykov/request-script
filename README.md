@@ -16,6 +16,14 @@ const scriptConfig = {
 }
 ```
 ---
+### You can create form which will send to Telegram.
+```
+<form id="ex-form">
+    <!-- some fields... -->
+</form>
+```
+> **id="ex-form"** - 'ex' - that your field tag in scriptConfig.js
+---
 ### You can add fields in message with HTML attributes:
 ```
 <input name="ex-address" data-text="Address" data-smile="📃" value="#">
