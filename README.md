@@ -25,6 +25,7 @@ const scriptConfig = {
 > **id="ex-form"** - 'ex' - that your field tag in scriptConfig.js
 ---
 ### You can add fields in message with HTML attributes:
+#### Attention! You can add only - input, select, textarea!
 ```
 <input name="ex-address" data-text="Address" data-smile="📃" value="#">
 
@@ -42,3 +43,9 @@ const scriptConfig = {
 > **data-smile="📃"** - value of this attribute that smile which will before text in message
 
 > **value="#"** - that value for text in message
+---
+### You must create submit button for send form:
+```
+<button type="submit">Submit</button>
+```
+> **type="submit"** - 'submit' that when clicking on a button with this type, the form will be submit.
