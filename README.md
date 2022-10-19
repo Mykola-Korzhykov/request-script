@@ -3,7 +3,7 @@ Script which send messages from web-site on Telegram.
 ---
 ### How to integrate the script:
 ```
-<script data-main="request-script/main.js" src="request-script/scripts/require.min.js"></script>
+<script data-main="request-script/main.js" src="request-script/libs/require.min.js"></script>
 ```
 ---
 ### You can change script config (scriptConfig.js):
